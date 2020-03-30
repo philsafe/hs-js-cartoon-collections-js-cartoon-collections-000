@@ -1,6 +1,7 @@
 function dwarfRollCall(dwarves) {
  var dwarveline = []
  for (var i=0; i<dwarves.length; i++)
+ 
  { dwarveline += (i+1).toString()+ ". " + dwarves[i] +" ";}
  return dwarveline;
 }
@@ -26,7 +27,7 @@ function longPlaneteerCalls(word) {
 }
 
 function findTheCheese (food) {
-  var cheese = ["cheddar", "gouda", "camembert"]
+  var cheese = ["cheddar", "gouda", "swiss", "camembert"]
   for (var i =0; i < food.length; i++){
     for (var x =0; x < cheese.length; x++){
       if (food[i]=== cheese[x]){
@@ -35,4 +36,11 @@ function findTheCheese (food) {
     }
   }
   return "no cheese!"
+}
+function wordsb (names){
+  var startb =[]
+  for (var i=0; i< names.length; i++){
+    for (var j=0; j < startb.length; j++){
+      
+    }
 }
